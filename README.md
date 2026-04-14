@@ -5,6 +5,8 @@
 **Tokenizing Vector Animation for Autoregressive Generation**
 
 
+
+
 **[Junhao Chen](https://scholar.google.com/citations?hl=en&user=uVMnzPMAAAAJ)<sup>1,2*</sup>**, **[Kejun Gao](https://scholar.google.com/scholar?q=Kejun+Gao)<sup>1*</sup>**, **[Yuehan Cui](https://scholar.google.com/scholar?q=Yuehan+Cui)<sup>1</sup>**, **[Mingze Sun](https://scholar.google.com/citations?user=TTW2mVoAAAAJ&hl=en)<sup>1</sup>**, **[Mingjin Chen](https://scholar.google.com/citations?user=uLfubbgAAAAJ&hl=en&oi=sra)<sup>3</sup>**  
 **[Shaohui Wang](https://scholar.google.com/scholar?q=Shaohui+Wang)<sup>1</sup>**, **[Xiaoxiao Long](https://scholar.google.com/citations?hl=en&user=W3G5kZEAAAAJ)<sup>4</sup>**, **[Fei Ma](https://scholar.google.com/citations?user=RJOEAMYAAAAJ&hl=zh-CN)<sup>5</sup>**, **[Qi Tian](https://scholar.google.com/citations?hl=en&user=61b6eYkAAAAJ)<sup>5</sup>**, **[Ruqi Huang](https://scholar.google.com/citations?user=cgRY63gAAAAJ&hl=en)<sup>1†</sup>**, **[Hao Zhao](https://scholar.google.com/citations?user=ygQznUQAAAAJ&hl=en)<sup>1,2†</sup>**
 
@@ -26,6 +28,8 @@
 ## Overview
 
 LottieGPT is a model for generating editable vector animations in an autoregressive manner. Instead of producing fixed-resolution raster frames, it tokenizes vector animation structure and motion, enabling high-quality generation that remains editable after synthesis.
+
+<img src="tokenizer.png" alt="LottieGPT tokenizer overview" width="100%" />
 
 This repository accompanies our paper and project page, and serves as a lightweight open-source hub for the paper, figures, and demo materials.
 
