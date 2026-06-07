@@ -65,7 +65,7 @@ We release the **largest-scale vector graphics and animation datasets to date**,
 
 **LottieAnimation-660K** is the largest and most diverse real-world vector animation dataset to date. It contains 660K Lottie animations curated from After Effects (Bodymovin) exports, with extensive cleaning, standardization, and JSON simplification. Each sample ships with the full Lottie JSON, an MP4 preview for quick inspection, a detailed caption, and tags.
 
-**Captions.** All captions are detailed descriptions generated with Qwen2.5-VL, covering the objects involved, their colors and positions, the actions/motion, and the overall layout — making the data directly usable for text-to-vector and text-to-animation training.
+**Captions.** All captions are detailed descriptions generated with doubao-seed-2, covering the objects involved, their colors and positions, the actions/motion, and the overall layout — making the data directly usable for text-to-vector and text-to-animation training.
 
 > Both datasets are released under **CC BY-NC-SA 4.0** for academic and non-commercial research. See each dataset card for the full disclaimer and usage terms.
 
