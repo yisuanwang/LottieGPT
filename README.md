@@ -58,8 +58,8 @@ We release the **largest-scale vector graphics and animation datasets to date**,
 
 | Dataset | Scale | Per-sample contents | Link |
 | :-- | :-- | :-- | :-- |
-| **LottieSVG-10M** | 9,778,526 SVGs | SVG code · converted static Lottie JSON · rendered PNG · text caption · tags · metadata | [🤗 HuggingFace](https://huggingface.co/datasets/LottieGPT/LottieSVG-10M) |
-| **LottieAnimation-660K** | 660K animations | full Lottie JSON · MP4 preview · text caption · tags | [🤗 HuggingFace](https://huggingface.co/datasets/LottieGPT/LottieAnimation-660K) |
+| **LottieSVG-10M** | 9,778,526 SVGs & Lottie images | SVG code · converted static Lottie JSON · rendered PNG · text caption · tags · metadata | [🤗 HuggingFace](https://huggingface.co/datasets/LottieGPT/LottieSVG-10M) |
+| **LottieAnimation-660K** | 660K Lottie animations | full Lottie JSON · MP4 preview · text caption · tags | [🤗 HuggingFace](https://huggingface.co/datasets/LottieGPT/LottieAnimation-660K) |
 
 **LottieSVG-10M** is the largest SVG / static-vector dataset to date. Each of its 9,778,526 samples provides the original SVG code, the SVG converted into a (static) Lottie JSON, a rendered PNG preview, a detailed natural-language caption, keyword tags, and metadata (size, style, asset type). It covers both the **SVG dataset** and the **static Lottie image dataset**, since every SVG ships together with its converted static Lottie. The release is sharded for large-scale training (100 metadata `.jsonl.zst` shards + 100 image `.tar.zst` shards, ~92 GB total).
 
